@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* OpenDoorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OpenDoorTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4BE27C71499E4B4E9BC7CF89 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D391EE0622FA4A7FB3013814 /* Poppins-Black.ttf */; };
+		E5494A6065204558BFC216D6 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A57A1E89FC70448CB560DF79 /* Poppins-Bold.ttf */; };
+		CD6131FAA64B4062B7CE4FB0 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4220A53ED46B4920A388FAEC /* Poppins-ExtraBold.ttf */; };
+		F1D2FD4227084A0BADA75BB6 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52AFAB8D158E4676ABD9C2F7 /* Poppins-ExtraLight.ttf */; };
+		9089DCE5C0934B87BC9146A4 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB1620916CB84EBBADE3180E /* Poppins-Light.ttf */; };
+		1D9B46CC4F1E4437A1A2ED9B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6962C4FC25174CF6B3A2DA12 /* Poppins-Medium.ttf */; };
+		7034CF0D747A44C5AD4D4A79 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9349DCDE20E7488A991D7D74 /* Poppins-Regular.ttf */; };
+		33D7F89F990D463397BDC257 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 500E83A02B96419A9F50C0C6 /* Poppins-SemiBold.ttf */; };
+		3929D506B1A648348D1843D2 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC5C1ECA250E4CCC83E3F1C5 /* Poppins-Thin.ttf */; };
+		99A060F054C04F1C9C18F8E0 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B9D7F949684BF285BC7D2A /* AntDesign.ttf */; };
+		7197F7AFA4CD4E4987C36299 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CD2A1184141E3A81235C6 /* Entypo.ttf */; };
+		C5CACC7310C946B6A9E0349B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40138BAB06714C9783B1CAF9 /* EvilIcons.ttf */; };
+		90F99D640B16453F85AE9F7B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3AF4BD56532428590513581 /* Feather.ttf */; };
+		D2DB43462A13401EB63230A5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A563BEADCAE42679A780854 /* FontAwesome.ttf */; };
+		83656371977343CB89119969 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B14E5D9884737A8F0AC4E /* FontAwesome5_Brands.ttf */; };
+		ED3F095E5DC747CBBB1F45B2 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75F9BE0875844B628F86C056 /* FontAwesome5_Regular.ttf */; };
+		7DB8FF6415884DE9B56860E0 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02358E1B3C6849FB84EF3700 /* FontAwesome5_Solid.ttf */; };
+		38DF2FF7AB274125819A373A /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B652447A2600478689498DC2 /* Fontisto.ttf */; };
+		70B41FF0E8BD47839B2D2755 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F53875E307D44C79B54BB6C /* Foundation.ttf */; };
+		D448A7AB35794500A44BFF6B /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2768F60EEF34D739ECFDD46 /* Ionicons.ttf */; };
+		EA2ADF487C0E4E219CF42484 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8615CFECB6014A2AB14DC7E5 /* MaterialCommunityIcons.ttf */; };
+		BCCC9993AC34472FB846F26B /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB9079C748384592A8F0E4D1 /* MaterialIcons.ttf */; };
+		EA65967A26AA46E3AB53B162 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DB71D3C3D94420D984D5715 /* Octicons.ttf */; };
+		784011DC1F7245BB8A1F6541 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06143CA675DF408CAE7E584C /* SimpleLineIcons.ttf */; };
+		4E5874603509422AA2A22A99 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6AE8D33DB543C79CAF960C /* Zocial.ttf */; };
+		30C7360AE9DE42958DB5865C /* Exo2-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E26DA205ACDC4DB9BE6720F7 /* Exo2-Black.ttf */; };
+		25C91AD5CB3649DFA52908D5 /* Exo2-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8BD14E034114491A866FB84 /* Exo2-BlackItalic.ttf */; };
+		19A6C8768EEE45E19F901FD1 /* Exo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B19768AB2AE40D2A1883428 /* Exo2-Bold.ttf */; };
+		1E02CEC78CB14F088ABBDCAB /* Exo2-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66B6079CF8234B7F85F24BFF /* Exo2-BoldItalic.ttf */; };
+		BA331AC6BCC145E4BE4BF536 /* Exo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD04D41A8C45FBA87A3C1B /* Exo2-ExtraBold.ttf */; };
+		57EA01CF617947E9BA4A5B9F /* Exo2-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A69F21C7C7541A3AF95AE33 /* Exo2-ExtraBoldItalic.ttf */; };
+		D66237804F50494FB0444A4A /* Exo2-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AB3A591AF1B48C7836A119B /* Exo2-ExtraLight.ttf */; };
+		AC07528283D041C88E859863 /* Exo2-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D8F5C449F6D4030884FAE13 /* Exo2-ExtraLightItalic.ttf */; };
+		19B77B44868246A694203EEA /* Exo2-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03302BF40D0647C3B0359BCA /* Exo2-Italic.ttf */; };
+		5D0D011B1A1A45ACA03A9092 /* Exo2-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53315CC60F70407DB0FF51D1 /* Exo2-Light.ttf */; };
+		581865FB32CB4006930C227E /* Exo2-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61ADADE6969B4943AFD65B81 /* Exo2-LightItalic.ttf */; };
+		D8486E7B894849FD8E989B9C /* Exo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050E81B167E14BF6A6B6FE7D /* Exo2-Medium.ttf */; };
+		54D903826BAC4B3190A39FFD /* Exo2-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B94BB6D5E6384CAD9FFB66F8 /* Exo2-MediumItalic.ttf */; };
+		DD3AB33A274E434B8F33CBCE /* Exo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C130DC2DB1F04D8C96F022DD /* Exo2-Regular.ttf */; };
+		946D633B06EA46588316E6B7 /* Exo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C90096C3744047998E760920 /* Exo2-SemiBold.ttf */; };
+		D2A0DE52CE004FB6936C77A9 /* Exo2-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C93B8EA8496E4FC1ACA674F6 /* Exo2-SemiBoldItalic.ttf */; };
+		B11BF1E7A53944438230BCC9 /* Exo2-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F64426E3AA94A53BE9B13C8 /* Exo2-Thin.ttf */; };
+		40A1EE6B86D9475FB1BEFB77 /* Exo2-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 033AA317C7654CC7AF48740C /* Exo2-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = OpenDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* OpenDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OpenDoorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDoorTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OpenDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OpenDoor/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OpenDoor/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OpenDoor/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OpenDoor/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OpenDoor/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OpenDoor/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D391EE0622FA4A7FB3013814 /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A57A1E89FC70448CB560DF79 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4220A53ED46B4920A388FAEC /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52AFAB8D158E4676ABD9C2F7 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB1620916CB84EBBADE3180E /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6962C4FC25174CF6B3A2DA12 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9349DCDE20E7488A991D7D74 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		500E83A02B96419A9F50C0C6 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC5C1ECA250E4CCC83E3F1C5 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31B9D7F949684BF285BC7D2A /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B3CD2A1184141E3A81235C6 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		40138BAB06714C9783B1CAF9 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3AF4BD56532428590513581 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A563BEADCAE42679A780854 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D50B14E5D9884737A8F0AC4E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75F9BE0875844B628F86C056 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02358E1B3C6849FB84EF3700 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B652447A2600478689498DC2 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F53875E307D44C79B54BB6C /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2768F60EEF34D739ECFDD46 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8615CFECB6014A2AB14DC7E5 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB9079C748384592A8F0E4D1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DB71D3C3D94420D984D5715 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06143CA675DF408CAE7E584C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C6AE8D33DB543C79CAF960C /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E26DA205ACDC4DB9BE6720F7 /* Exo2-Black.ttf */ = {isa = PBXFileReference; name = "Exo2-Black.ttf"; path = "../assets/fonts/Exo2-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8BD14E034114491A866FB84 /* Exo2-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-BlackItalic.ttf"; path = "../assets/fonts/Exo2-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B19768AB2AE40D2A1883428 /* Exo2-Bold.ttf */ = {isa = PBXFileReference; name = "Exo2-Bold.ttf"; path = "../assets/fonts/Exo2-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66B6079CF8234B7F85F24BFF /* Exo2-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-BoldItalic.ttf"; path = "../assets/fonts/Exo2-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CCD04D41A8C45FBA87A3C1B /* Exo2-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Exo2-ExtraBold.ttf"; path = "../assets/fonts/Exo2-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A69F21C7C7541A3AF95AE33 /* Exo2-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-ExtraBoldItalic.ttf"; path = "../assets/fonts/Exo2-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7AB3A591AF1B48C7836A119B /* Exo2-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Exo2-ExtraLight.ttf"; path = "../assets/fonts/Exo2-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D8F5C449F6D4030884FAE13 /* Exo2-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-ExtraLightItalic.ttf"; path = "../assets/fonts/Exo2-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03302BF40D0647C3B0359BCA /* Exo2-Italic.ttf */ = {isa = PBXFileReference; name = "Exo2-Italic.ttf"; path = "../assets/fonts/Exo2-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53315CC60F70407DB0FF51D1 /* Exo2-Light.ttf */ = {isa = PBXFileReference; name = "Exo2-Light.ttf"; path = "../assets/fonts/Exo2-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61ADADE6969B4943AFD65B81 /* Exo2-LightItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-LightItalic.ttf"; path = "../assets/fonts/Exo2-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		050E81B167E14BF6A6B6FE7D /* Exo2-Medium.ttf */ = {isa = PBXFileReference; name = "Exo2-Medium.ttf"; path = "../assets/fonts/Exo2-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B94BB6D5E6384CAD9FFB66F8 /* Exo2-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-MediumItalic.ttf"; path = "../assets/fonts/Exo2-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C130DC2DB1F04D8C96F022DD /* Exo2-Regular.ttf */ = {isa = PBXFileReference; name = "Exo2-Regular.ttf"; path = "../assets/fonts/Exo2-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C90096C3744047998E760920 /* Exo2-SemiBold.ttf */ = {isa = PBXFileReference; name = "Exo2-SemiBold.ttf"; path = "../assets/fonts/Exo2-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C93B8EA8496E4FC1ACA674F6 /* Exo2-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-SemiBoldItalic.ttf"; path = "../assets/fonts/Exo2-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F64426E3AA94A53BE9B13C8 /* Exo2-Thin.ttf */ = {isa = PBXFileReference; name = "Exo2-Thin.ttf"; path = "../assets/fonts/Exo2-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		033AA317C7654CC7AF48740C /* Exo2-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Exo2-ThinItalic.ttf"; path = "../assets/fonts/Exo2-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* OpenDoorTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* OpenDoorTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = OpenDoorTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* OpenDoor */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = OpenDoor;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* OpenDoor */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* OpenDoorTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				19170844235A447196EE5887 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* OpenDoor.app */,
+				00E356EE1AD99517003FC87E /* OpenDoorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19170844235A447196EE5887 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D391EE0622FA4A7FB3013814 /* Poppins-Black.ttf */,
+				A57A1E89FC70448CB560DF79 /* Poppins-Bold.ttf */,
+				4220A53ED46B4920A388FAEC /* Poppins-ExtraBold.ttf */,
+				52AFAB8D158E4676ABD9C2F7 /* Poppins-ExtraLight.ttf */,
+				BB1620916CB84EBBADE3180E /* Poppins-Light.ttf */,
+				6962C4FC25174CF6B3A2DA12 /* Poppins-Medium.ttf */,
+				9349DCDE20E7488A991D7D74 /* Poppins-Regular.ttf */,
+				500E83A02B96419A9F50C0C6 /* Poppins-SemiBold.ttf */,
+				CC5C1ECA250E4CCC83E3F1C5 /* Poppins-Thin.ttf */,
+				31B9D7F949684BF285BC7D2A /* AntDesign.ttf */,
+				4B3CD2A1184141E3A81235C6 /* Entypo.ttf */,
+				40138BAB06714C9783B1CAF9 /* EvilIcons.ttf */,
+				A3AF4BD56532428590513581 /* Feather.ttf */,
+				1A563BEADCAE42679A780854 /* FontAwesome.ttf */,
+				D50B14E5D9884737A8F0AC4E /* FontAwesome5_Brands.ttf */,
+				75F9BE0875844B628F86C056 /* FontAwesome5_Regular.ttf */,
+				02358E1B3C6849FB84EF3700 /* FontAwesome5_Solid.ttf */,
+				B652447A2600478689498DC2 /* Fontisto.ttf */,
+				1F53875E307D44C79B54BB6C /* Foundation.ttf */,
+				B2768F60EEF34D739ECFDD46 /* Ionicons.ttf */,
+				8615CFECB6014A2AB14DC7E5 /* MaterialCommunityIcons.ttf */,
+				EB9079C748384592A8F0E4D1 /* MaterialIcons.ttf */,
+				7DB71D3C3D94420D984D5715 /* Octicons.ttf */,
+				06143CA675DF408CAE7E584C /* SimpleLineIcons.ttf */,
+				2C6AE8D33DB543C79CAF960C /* Zocial.ttf */,
+				E26DA205ACDC4DB9BE6720F7 /* Exo2-Black.ttf */,
+				D8BD14E034114491A866FB84 /* Exo2-BlackItalic.ttf */,
+				4B19768AB2AE40D2A1883428 /* Exo2-Bold.ttf */,
+				66B6079CF8234B7F85F24BFF /* Exo2-BoldItalic.ttf */,
+				4CCD04D41A8C45FBA87A3C1B /* Exo2-ExtraBold.ttf */,
+				7A69F21C7C7541A3AF95AE33 /* Exo2-ExtraBoldItalic.ttf */,
+				7AB3A591AF1B48C7836A119B /* Exo2-ExtraLight.ttf */,
+				5D8F5C449F6D4030884FAE13 /* Exo2-ExtraLightItalic.ttf */,
+				03302BF40D0647C3B0359BCA /* Exo2-Italic.ttf */,
+				53315CC60F70407DB0FF51D1 /* Exo2-Light.ttf */,
+				61ADADE6969B4943AFD65B81 /* Exo2-LightItalic.ttf */,
+				050E81B167E14BF6A6B6FE7D /* Exo2-Medium.ttf */,
+				B94BB6D5E6384CAD9FFB66F8 /* Exo2-MediumItalic.ttf */,
+				C130DC2DB1F04D8C96F022DD /* Exo2-Regular.ttf */,
+				C90096C3744047998E760920 /* Exo2-SemiBold.ttf */,
+				C93B8EA8496E4FC1ACA674F6 /* Exo2-SemiBoldItalic.ttf */,
+				8F64426E3AA94A53BE9B13C8 /* Exo2-Thin.ttf */,
+				033AA317C7654CC7AF48740C /* Exo2-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* OpenDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OpenDoorTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = OpenDoorTests;
+			productName = OpenDoorTests;
+			productReference = 00E356EE1AD99517003FC87E /* OpenDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* OpenDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OpenDoor" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenDoor;
+			productName = OpenDoor;
+			productReference = 13B07F961A680F5B00A75B9A /* OpenDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OpenDoor" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* OpenDoor */,
+				00E356ED1AD99517003FC87E /* OpenDoorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4BE27C71499E4B4E9BC7CF89 /* Poppins-Black.ttf in Resources */,
+				E5494A6065204558BFC216D6 /* Poppins-Bold.ttf in Resources */,
+				CD6131FAA64B4062B7CE4FB0 /* Poppins-ExtraBold.ttf in Resources */,
+				F1D2FD4227084A0BADA75BB6 /* Poppins-ExtraLight.ttf in Resources */,
+				9089DCE5C0934B87BC9146A4 /* Poppins-Light.ttf in Resources */,
+				1D9B46CC4F1E4437A1A2ED9B /* Poppins-Medium.ttf in Resources */,
+				7034CF0D747A44C5AD4D4A79 /* Poppins-Regular.ttf in Resources */,
+				33D7F89F990D463397BDC257 /* Poppins-SemiBold.ttf in Resources */,
+				3929D506B1A648348D1843D2 /* Poppins-Thin.ttf in Resources */,
+				99A060F054C04F1C9C18F8E0 /* AntDesign.ttf in Resources */,
+				7197F7AFA4CD4E4987C36299 /* Entypo.ttf in Resources */,
+				C5CACC7310C946B6A9E0349B /* EvilIcons.ttf in Resources */,
+				90F99D640B16453F85AE9F7B /* Feather.ttf in Resources */,
+				D2DB43462A13401EB63230A5 /* FontAwesome.ttf in Resources */,
+				83656371977343CB89119969 /* FontAwesome5_Brands.ttf in Resources */,
+				ED3F095E5DC747CBBB1F45B2 /* FontAwesome5_Regular.ttf in Resources */,
+				7DB8FF6415884DE9B56860E0 /* FontAwesome5_Solid.ttf in Resources */,
+				38DF2FF7AB274125819A373A /* Fontisto.ttf in Resources */,
+				70B41FF0E8BD47839B2D2755 /* Foundation.ttf in Resources */,
+				D448A7AB35794500A44BFF6B /* Ionicons.ttf in Resources */,
+				EA2ADF487C0E4E219CF42484 /* MaterialCommunityIcons.ttf in Resources */,
+				BCCC9993AC34472FB846F26B /* MaterialIcons.ttf in Resources */,
+				EA65967A26AA46E3AB53B162 /* Octicons.ttf in Resources */,
+				784011DC1F7245BB8A1F6541 /* SimpleLineIcons.ttf in Resources */,
+				4E5874603509422AA2A22A99 /* Zocial.ttf in Resources */,
+				30C7360AE9DE42958DB5865C /* Exo2-Black.ttf in Resources */,
+				25C91AD5CB3649DFA52908D5 /* Exo2-BlackItalic.ttf in Resources */,
+				19A6C8768EEE45E19F901FD1 /* Exo2-Bold.ttf in Resources */,
+				1E02CEC78CB14F088ABBDCAB /* Exo2-BoldItalic.ttf in Resources */,
+				BA331AC6BCC145E4BE4BF536 /* Exo2-ExtraBold.ttf in Resources */,
+				57EA01CF617947E9BA4A5B9F /* Exo2-ExtraBoldItalic.ttf in Resources */,
+				D66237804F50494FB0444A4A /* Exo2-ExtraLight.ttf in Resources */,
+				AC07528283D041C88E859863 /* Exo2-ExtraLightItalic.ttf in Resources */,
+				19B77B44868246A694203EEA /* Exo2-Italic.ttf in Resources */,
+				5D0D011B1A1A45ACA03A9092 /* Exo2-Light.ttf in Resources */,
+				581865FB32CB4006930C227E /* Exo2-LightItalic.ttf in Resources */,
+				D8486E7B894849FD8E989B9C /* Exo2-Medium.ttf in Resources */,
+				54D903826BAC4B3190A39FFD /* Exo2-MediumItalic.ttf in Resources */,
+				DD3AB33A274E434B8F33CBCE /* Exo2-Regular.ttf in Resources */,
+				946D633B06EA46588316E6B7 /* Exo2-SemiBold.ttf in Resources */,
+				D2A0DE52CE004FB6936C77A9 /* Exo2-SemiBoldItalic.ttf in Resources */,
+				B11BF1E7A53944438230BCC9 /* Exo2-Thin.ttf in Resources */,
+				40A1EE6B86D9475FB1BEFB77 /* Exo2-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* OpenDoorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* OpenDoor */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenDoorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenDoor.app/OpenDoor";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = OpenDoorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenDoor.app/OpenDoor";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OpenDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = OpenDoor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = OpenDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = OpenDoor;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OpenDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OpenDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OpenDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
