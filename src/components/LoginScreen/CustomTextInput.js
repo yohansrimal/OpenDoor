@@ -49,13 +49,12 @@ const styles = StyleSheet.create({
 
   input: {
     flex: 1,
-    // height: '100%',
+    height: '100%',
     textAlign: 'center',
     fontSize: 28,
     color: 'white',
-    fontFamily: 'Exo2-Bold',
-    // paddingTop: 0,
-    // paddingBottom: 0,
+    fontFamily: 'Poppins-Medium',
+    padding: 0,
   },
 
   // input: {

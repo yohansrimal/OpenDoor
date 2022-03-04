@@ -9,13 +9,12 @@ import {
 } from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
+import StatusBar from '../components/LoginScreen/StatusBar.js';
+import CustomTextInput from '../components/LoginScreen/CustomTextInput.js';
+import HorizontalComp from '../components/LoginScreen/HorizontalComp.js';
+import Button from '../components/LoginScreen/Button.js';
 
-import StatusBar from '../components/StatusBar.js';
-import CustomTextInput from '../components/CustomTextInput.js';
-import HorizontalComp from '../components/HorizontalComp.js';
-import Button from '../components/Button.js';
-
-const LoginScreen = () => {
+const LoginScreen = ({navigation}) => {
   return (
     <LinearGradient
       colors={['#373844', '#006590', '#006590', '#006590', '#373844']}>
@@ -53,11 +52,21 @@ const LoginScreen = () => {
 
               <View style={styles.bottomFlexBox}>
                 <View style={styles.flexBox1}>
-                  <Button style={registerButtonStyle} name={'Register'} />
+                  <Button
+                    style={registerButtonStyle}
+                    name={'Register'}
+                    navigate={navigation}
+                    url={'Chat'}
+                  />
                 </View>
                 <View style={{margin: 4}} />
                 <View style={styles.flexBox1}>
-                  <Button style={loginButtonStyle} name={'Login'} />
+                  <Button
+                    style={loginButtonStyle}
+                    name={'Login'}
+                    navigate={navigation}
+                    url={'Chat'}
+                  />
                 </View>
               </View>
             </View>
